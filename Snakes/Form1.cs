@@ -249,7 +249,8 @@ namespace Snakes
 
         }
 
-        private void GameOver() //Game over
+
+        private void GameOver() 
         {
             gameTimer.Stop();
             stratButton.Enabled = true;
